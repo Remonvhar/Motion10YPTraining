@@ -7,7 +7,7 @@ Requirements:
 - twee breaks van 15 minuten
 
 Subjects:
-
+----------------------------------------------------------------------------------------------------------------
 What is DevOps?
   - waterfall
 
@@ -21,15 +21,32 @@ Wat is Agile? Agile is een nieuwe manier van werken binnen software development.
 
 Agile en waterval zijn een methodiek tussen developers en stakeholders hierin vergeten we vaak een andere belangrijke speler. Het IT team. Dit is waar DevOps om de hoek komt kijken. DevOps is bedoelt om van IT en Development een meer verbonden team te maken. Want zonder IT hoe zorg je dat je CI/CD goed loopt? Wie zorgt er voor dat er voldoende rekenkracht is voor de test machines etc... 
 
-  - Continues Integration - Continues Delivery - Continues Deployment. (High level)
+  - Continuous Integration - Continuous Delivery - Continuous Deployment. (High level)
+
+Continuous integration het zorgen dat de code van alle developers in een main repository terecht komt.
+Continuous delivery het zorgen dat de er kort cycli gewerkt word aan het op te leveren product. einde van de cycli moet er een werkbaar product opgeleverd worden. hierin moet rekening gehouden worden met unit tests en integratie tests.
+Continuous deployment het automatisch deployen van de code naar het productie platform.
+
   - excersize
-    - take five minutes to discuss with 2 or 3 and decide if what kind of CI/CD we would recommend to customers?
+    - 
+----------------------------------------------------------------------------------------------------------------
   - version control
+    - repository's
+      - local
+      - remote
     - GIT
       - what is GIT?
+        - 
       - How to use GIT?
     - branching
+      - main branch
+      - feature based
+      - bugfixing
+      - forking
+      - 
     - releases
+      - tags
+      - seperate repository
   - excersize
     - create a branching strategy for 20 developers that work on 3 code projects.
      - 15 minutes
@@ -38,6 +55,7 @@ What is CI/CD
   - architecture
   - pipelines
     - Tools
+      - Azure DevOps
     - Yaml
       - how to write yaml?
   - excersize
