@@ -16,28 +16,28 @@
 * excersize
 ----
 ### version control
-* repository's
+* #### repository's
   * distributed version control system
   * centralized verison control system
-* GIT
+* #### GIT
   * what is GIT?
   * How to use GIT?
-* branching
-  * releases
-  * tags
-  * seperate repository
-* excersize
+* #### branching
+    * development branches
+    * feature branches
+    * release branches
+    * hotfix branches
+* #### excersize
 ----
 ### CI/CD
-* concept
-* architecture
-* pipelines
-* Tools
-* Azure DevOps
-* Visual Studio code
-* Yaml
-* how to write yaml?
-* excersize
+* #### concept
+* #### architecture
+* #### pipelines
+  * Yaml
+* #### Tools
+  * Azure DevOps
+  * Visual Studio code
+* #### excersize
 ----
 ### Orchistration
 * architecture
@@ -68,9 +68,10 @@ Agile en waterval zijn een methodiek tussen developers en stakeholders hierin ve
     * what is GIT?
     * How to use GIT?
 * #### branching
-    * releases
-    * tags
-    * seperate repository
+    * development branches
+    * feature branches
+    * release branches
+    * hotfix branches
 * #### excersize
 ----
 ### CI/CD
@@ -80,12 +81,13 @@ Agile en waterval zijn een methodiek tussen developers en stakeholders hierin ve
       * Continuous delivery het zorgen dat de er kort cycli gewerkt word aan het op te leveren product. einde van de cycli moet er een werkbaar product opgeleverd worden. hierin moet rekening gehouden worden met unit tests en integratie tests.
       * Continuous deployment het automatisch deployen van de code naar het productie platform. 
 * #### architecture
+  Create one with the YP. 
+  Show a design on a pipeline architecture.
 * #### pipelines
+  * Yaml
 * #### Tools
-* #### Azure DevOps
-* #### Visual Studio code
-* #### Yaml
-* #### how to write yaml?
+  * Azure DevOps
+  * Visual Studio code
 * #### excersize
 ----
 ### Orchistration
