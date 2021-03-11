@@ -1,13 +1,50 @@
 # Motion10YPTraining
-
-Requirements:
+----
+## Requirements:
 - 3 uur en 30 minuten
 - opdrachten en interactief
 - breed publiek (developers en non-developers)
 - twee breaks van 15 minuten
-
-Subjects:
-----------------------------------------------------------------------------------------------------------------
+----
+## Subjects:
+----
+### What is DevOps?
+* waterfall
+* agile
+* DevOps?
+* Continuous Integration - Continuous Delivery - Continuous Deployment. (High level)
+* excersize
+----
+### version control
+* repository's
+* distributed version control system
+* centralized verison control system
+* GIT
+* what is GIT?
+* How to use GIT?
+* branching
+* releases
+* tags
+* seperate repository
+* excersize
+----
+### What is CI/CD
+* concept
+* architecture
+* pipelines
+* Tools
+* Azure DevOps
+* Visual Studio code
+* Yaml
+* how to write yaml?
+* excersize
+----
+### Orchistration
+* architecture
+* tools
+* code based on tools
+* excersize
+----
 What is DevOps?
   - waterfall
 
@@ -21,41 +58,42 @@ Wat is Agile? Agile is een nieuwe manier van werken binnen software development.
 
 Agile en waterval zijn een methodiek tussen developers en stakeholders hierin vergeten we vaak een andere belangrijke speler. Het IT team. Dit is waar DevOps om de hoek komt kijken. DevOps is bedoelt om van IT en Development een meer verbonden team te maken. Want zonder IT hoe zorg je dat je CI/CD goed loopt? Wie zorgt er voor dat er voldoende rekenkracht is voor de test machines etc... 
 
-  - Continuous Integration - Continuous Delivery - Continuous Deployment. (High level)
-
-Continuous integration het zorgen dat de code van alle developers in een main repository terecht komt.
-Continuous delivery het zorgen dat de er kort cycli gewerkt word aan het op te leveren product. einde van de cycli moet er een werkbaar product opgeleverd worden. hierin moet rekening gehouden worden met unit tests en integratie tests.
-Continuous deployment het automatisch deployen van de code naar het productie platform.
-
   - excersize
     - 
 ----------------------------------------------------------------------------------------------------------------
   - version control
     - repository's
-      - local
-      - remote
+      - distributed version control system
+        - Git
+      - centralized verison control system
+        - TFVC
+      - Why distributed version control?
     - GIT
       - what is GIT?
-        - 
       - How to use GIT?
     - branching
-      - main branch
-      - feature based
-      - bugfixing
-      - forking
-      - 
+      - https://motion10-inhouse.visualstudio.com/Guidelines/_wiki/wikis/Guidelines.wiki/35/Introduction
     - releases
       - tags
       - seperate repository
   - excersize
     - create a branching strategy for 20 developers that work on 3 code projects.
      - 15 minutes
+----------------------------------------------------------------------------------------------------------------
 What is CI/CD
   - concept
+    - Continuous Integration - Continuous Delivery - Continuous Deployment. (High level)
+
+   * Continuous integration het zorgen dat de code van alle developers in een main repository terecht komt.
+   * Continuous delivery het zorgen dat de er kort cycli gewerkt word aan het op te leveren product. einde van de cycli moet er een werkbaar product opgeleverd worden. hierin moet rekening gehouden worden met unit tests en integratie tests.
+   * Continuous deployment het automatisch deployen van de code naar het productie platform.
+
   - architecture
   - pipelines
     - Tools
       - Azure DevOps
+      - Visual Studio Code
+      - Visual Studio
     - Yaml
       - how to write yaml?
   - excersize
