@@ -30,7 +30,6 @@
 * #### excersize
 ----
 ### CI/CD
-* #### concept
 * #### architecture
 * #### pipelines
   * Yaml
