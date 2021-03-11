@@ -23,8 +23,8 @@
   * what is GIT?
   * How to use GIT?
 * #### branching
-    * development branches
     * feature branches
+    * development branches
     * release branches
     * hotfix branches
 * #### excersize
